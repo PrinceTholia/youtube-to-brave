@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube \u2192 Brave",
+  "version": "1.0",
+  "description": "Opens YouTube links in Brave. Everything else stays in your current browser.",
+  "permissions": [
+    "nativeMessaging",
+    "webNavigation",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.youtu.be/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

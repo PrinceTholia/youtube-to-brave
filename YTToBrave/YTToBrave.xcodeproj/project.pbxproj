@@ -228,6 +228,7 @@
 			files = (
 				10209B06308D807D002D5338 /* background.js in Resources */,
 				10209C01308D807D002D5338 /* content.js in Resources */,
+				10209C03308D807D002D5338 /* manifest.json in Resources */,
 				10209C05308D807D002D5338 /* handoff.html in Resources */,
 			);
 		};
@@ -404,6 +405,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				LSApplicationCategoryType = "public.app-category.productivity";
+				NSHumanReadableCopyright = "Copyright © 2026. MIT License.";
+				CFBundleDisplayName = YTToBrave;
 				INFOPLIST_FILE = "YTToBrave Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "YTToBrave Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -419,6 +423,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytobrave.app.Extension;
+				CODE_SIGN_ENTITLEMENTS = "YTToBrave Extension/YTToBraveExtension.entitlements";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -438,6 +443,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				LSApplicationCategoryType = "public.app-category.productivity";
+				NSHumanReadableCopyright = "Copyright © 2026. MIT License.";
+				CFBundleDisplayName = YTToBrave;
 				INFOPLIST_FILE = "YTToBrave Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "YTToBrave Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -453,6 +461,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytobrave.app.Extension;
+				CODE_SIGN_ENTITLEMENTS = "YTToBrave Extension/YTToBraveExtension.entitlements";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -476,6 +485,9 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				LSApplicationCategoryType = "public.app-category.productivity";
+				NSHumanReadableCopyright = "Copyright © 2026. MIT License.";
+				CFBundleDisplayName = YTToBrave;
 				INFOPLIST_FILE = YTToBrave/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = YTToBrave;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -494,6 +506,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytobrave.app;
+				CODE_SIGN_ENTITLEMENTS = "YTToBrave/YTToBrave.entitlements";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -518,6 +531,9 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				LSApplicationCategoryType = "public.app-category.productivity";
+				NSHumanReadableCopyright = "Copyright © 2026. MIT License.";
+				CFBundleDisplayName = YTToBrave;
 				INFOPLIST_FILE = YTToBrave/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = YTToBrave;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -536,6 +552,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ytobrave.app;
+				CODE_SIGN_ENTITLEMENTS = "YTToBrave/YTToBrave.entitlements";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

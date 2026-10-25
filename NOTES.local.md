@@ -31,3 +31,5 @@
 **Google-result clicks (new tab, target=_blank):** click interception only catches same-tab clicks; new tabs do main_frame navigations → added webNavigation.onBeforeNavigate path (Safari 14+): YouTube main_frame → native handoff to Brave + tab bounced to about:blank. Manifest perms += webNavigation, tabs.
 
 **Polish:** about:blank bounce → bundled handoff.html ("Playing in Brave" + Brave flame logo, light/dark aware). Added to pbxproj resources phase (content.js lesson applied).
+
+**2026-10-26 App Store prep:** Requirements audit found missing: app icons (10 sizes generated from real Brave logo), sandbox entitlements (added to both targets), category/copyright/display name (added to Info.plist). Archive + export VALIDATED (App Store .pkg at release/YTToBrave-1.0.pkg). Next: App Store Connect record + upload (needs his 2FA login or API key), privacy answers, 1-2 screenshots.

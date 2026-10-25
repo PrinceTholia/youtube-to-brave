@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  YTToBrave
 //
-//  Created by Prince Tholia on 25/10/26.
+//
 //
 
 import Cocoa

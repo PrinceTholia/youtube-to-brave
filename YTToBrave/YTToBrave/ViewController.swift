@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  YTToBrave
 //
-//  Created by Prince Tholia on 25/10/26.
+//
 //
 
 import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "com.princetholia.yt-to-brave.Extension"
+let extensionBundleIdentifier = "com.ytobrave.app.Extension"
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

@@ -6,7 +6,7 @@
 // A per-tab lock stops the same URL handing off twice (a click and its
 // resulting navigation both firing).
 
-const NATIVE_APP = "com.princetholia.YTToBrave";
+const NATIVE_APP = "com.ytobrave.app";
 const lastHandoff = new Map(); // tabId → URL just handed off
 
 function isYouTube(hostname) {
